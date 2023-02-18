@@ -59,9 +59,8 @@ document.querySelector('form').addEventListener('submit', e => {
 // ikkinchi hol
 
 document.querySelector('.again').addEventListener('click', () => {
-    document.querySelector('h1').textContent = "Sonni toping.";
-
-
+  document.querySelector('h1').textContent = 'Sonni toping.';
+  document.querySelector('.number').textContent = '?';
   secretNumber = Math.trunc(Math.random() * 20 + 1);
 
   console.log(secretNumber);
